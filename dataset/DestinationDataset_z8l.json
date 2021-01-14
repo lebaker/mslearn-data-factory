@@ -1,0 +1,19 @@
+{
+	"name": "DestinationDataset_z8l",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "sales.txt",
+				"folderPath": "sample/data",
+				"fileSystem": "salesdata"
+			}
+		}
+	}
+}
